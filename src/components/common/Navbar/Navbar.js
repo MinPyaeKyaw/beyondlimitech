@@ -1,8 +1,5 @@
 import React from "react";
-import { navigations } from "../../../utils/navigations";
-import Btn from "../Btn/Btn";
 import MobileNavbar from "./MobileNavbar";
-import NavbarItem from "./NavbarItem";
 import { motion } from "framer-motion";
 import DesktopNavbar from "./DesktopNavbar";
 

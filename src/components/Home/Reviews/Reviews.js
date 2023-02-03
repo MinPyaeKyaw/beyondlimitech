@@ -8,7 +8,6 @@ import "swiper/css";
 import "./styles.css";
 
 // import required modules
-import { Navigation } from "swiper";
 import "swiper/css/navigation";
 import PrevBtn from "./PrevBtn";
 import NextBtn from "./NextBtn";
