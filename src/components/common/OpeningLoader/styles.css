@@ -1,0 +1,6 @@
+.opening_container {
+    @apply w-full h-[100vh] flex items-center justify-center;
+}
+.opening {
+    @apply w-[45%];
+}

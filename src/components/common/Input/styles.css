@@ -1,0 +1,9 @@
+.input_container {
+    @apply w-full flex flex-col items-start;
+}
+.input {
+    @apply w-full outline-none rounded-sm h-10 px-2 text-black;
+}
+.label {
+    @apply text-white
+}

@@ -1,0 +1,43 @@
+.review_container {
+    @apply w-full py-10 bg-purple-700 mb-20 px-2 md:px-10 flex flex-col items-center;
+}
+
+.review_title {
+    @apply text-2xl font-bold text-white mb-4;
+}
+
+.review_dataContainer {
+    @apply w-[80%];
+}
+
+.swiper-button-next {
+    color: red;
+}
+
+.review_card {
+    @apply bg-white rounded-sm flex flex-col items-start p-3;
+}
+
+.review_personContainer {
+    @apply flex;
+}
+
+.review_personImg {
+    @apply w-12 h-12 object-cover rounded-full mr-3;
+}
+
+.review_personInfo {
+    @apply flex flex-col items-start;
+}
+
+.review_personName {
+    @apply mb-[-5px] font-bold;
+}
+
+.review {
+    @apply text-gray-500 mt-4 text-left;
+}
+
+.review_swiperBtn {
+    @apply bg-[white] shadow-sm w-5 h-8 shadow-slate-500 rounded-sm flex items-center justify-center cursor-pointer;
+}

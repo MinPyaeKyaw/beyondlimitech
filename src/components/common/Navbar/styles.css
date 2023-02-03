@@ -1,0 +1,29 @@
+.navbar_container {
+    @apply bg-[#142f4c] w-full h-[80px] flex items-center justify-between px-10;
+}
+.navbar_logo {
+    @apply h-full w-[150px];
+}
+.navbar_itemListContainer {
+    @apply flex items-center;
+}
+.navbar_item {
+    @apply ml-6 text-white cursor-pointer px-5 py-1 rounded-full hover:bg-[#1e3b59] relative flex justify-center transition ease-in-out;
+}
+.navbar_dropListContainer {
+    @apply absolute min-w-[150px] bg-white rounded-sm text-[#1e3b59] py-4 px-6 top-10 flex flex-col;
+}
+.navbar_dropItem {
+    @apply text-left py-1;
+}
+.fixedNavbar {
+    @apply fixed top-0 left-0 z-30 w-full;
+}
+
+/* Mobile */
+.mobileNavbar_container {
+    @apply bg-[#142f4c] w-full h-16 flex items-center justify-between px-2;
+}
+.mobileNavbar_logo {
+    @apply h-full w-[120px];
+}

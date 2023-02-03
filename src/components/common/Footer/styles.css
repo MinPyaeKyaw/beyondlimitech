@@ -1,0 +1,23 @@
+.footer_container {
+    @apply w-full bg-[#142f4c] py-10 px-2 md:px-10 flex flex-col md:flex-row gap-4 text-white;
+}
+
+.footer_content {
+    @apply flex-1 flex flex-col justify-between;
+}
+
+.footer_form {
+    @apply flex-1;
+}
+
+.footer_title {
+    @apply font-bold text-3xl mb-4;
+}
+
+.footer_slogan {
+    @apply font-bold text-base mt-3;
+}
+
+.footer_btn {
+    @apply w-full h-10 bg-cyan-600 flex items-center justify-center rounded-sm mt-4 cursor-pointer;
+}

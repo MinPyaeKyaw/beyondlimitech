@@ -1,0 +1,35 @@
+.clients_container {
+    @apply w-full pb-20 px-2 md:px-10;
+}
+
+.clients_container {
+    @apply text-2xl font-bold;
+}
+
+.clients_contentContainer {
+    @apply grid grid-cols-1 md:grid-cols-4 gap-4 py-10;
+}
+
+.clients_imgContainer {
+    @apply w-full relative;
+}
+
+.clients_dataContainer {
+    transition: all ease 0.3s;
+}
+
+.clients_imgContainer:hover .clients_dataContainer {
+    height: 100%;
+}
+
+.clients_img {
+    @apply w-full h-full object-cover;
+}
+
+.clients_dataContainer {
+    @apply absolute top-0 left-0 w-full h-0 overflow-hidden flex flex-col items-center justify-center bg-black font-normal;
+}
+
+.clients_name {
+    @apply mb-4 text-base text-white;
+}

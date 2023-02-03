@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@import "./components/common/Navbar/styles.css";
+@import "./components/common/Btn/styles.css";
+@import "./components/Home/Banner/styles.css";
+@import "./components/Home/Offer/styles.css";
+@import "./components/Home/Clients/styles.css";
+@import "./components/Home/Reviews/styles.css";
+@import "./components/common/Footer/styles.css";
+@import "./components/common/Input/styles.css";
+@import "./components/common/TextArea/styles.css";
+@import "./components/common/OpeningLoader/styles.css";
+@import "./components/Home/BusinessMove/styles.css";
+@tailwind utilities;

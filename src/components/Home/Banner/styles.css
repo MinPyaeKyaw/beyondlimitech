@@ -1,0 +1,18 @@
+.banner_container {
+    @apply w-full py-20 bg-[#142f4c] flex flex-col items-center justify-center;
+}
+.banner_slogan {
+    @apply text-white text-5xl font-bold mb-10;
+}
+.banner_itemListContainer {
+    @apply grid grid-cols-3 grid-rows-2 gap-4 w-[65%] h-[60vh];
+}
+.banner_imgContainer {
+    @apply w-full h-full overflow-hidden object-contain;
+}
+.banner_img {
+    @apply w-full h-full object-contain;
+}
+.banner_desc {
+    @apply text-2xl text-white px-20 mt-20 mb-10;
+}

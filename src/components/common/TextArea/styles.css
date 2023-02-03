@@ -1,0 +1,7 @@
+.textarea_container {
+    @apply w-full flex flex-col items-start;
+}
+
+.textarea {
+    @apply w-full text-black px-2 outline-none;
+}

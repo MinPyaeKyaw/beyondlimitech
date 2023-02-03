@@ -1,0 +1,18 @@
+.offer_container {
+    @apply w-full py-20 px-2 md:px-10;
+}
+.offer_contentContainer {
+    @apply grid grid-cols-1 md:grid-cols-3 gap-4 py-10;
+}
+.offer_title {
+    @apply text-2xl font-bold;
+}
+.offer_card {
+    @apply flex flex-col items-center;
+}
+.offer_cardImg {
+    @apply w-[60px] h-[60px];
+}
+.offer_cardTitle {
+    @apply text-lg font-bold;
+}
